@@ -9,3 +9,4 @@ soup = BeautifulSoup(html, 'html.parser')
 temperatura = soup.find("span", id= "current-weather-temperature")
 
 print(temperatura)
+print("foi!")
